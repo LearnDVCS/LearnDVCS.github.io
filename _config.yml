@@ -1,1 +1,4 @@
 theme: jekyll-theme-architect
+title: Learn DVCS
+description: Fundamentals of Distributed Version Control with git on GitHub
+show_downloads: false
