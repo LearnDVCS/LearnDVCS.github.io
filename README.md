@@ -2,6 +2,8 @@
 
 ![](https://guides.github.com/activities/hello-world/branching.png)
 
+For more information on how this site was built and what technologies are being used, view the [Colophon](colophon).
+
 ----
 
 ## Welcome to GitHub Pages
