@@ -5,4 +5,4 @@ description:
 # What is JAMStack?
 
 
-- {{ site.baseurl}}{% link _colophon.about.md %}
+- {{ site.baseurl}}{% link _colophon/about.md %}
