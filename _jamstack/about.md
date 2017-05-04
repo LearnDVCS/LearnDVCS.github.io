@@ -4,4 +4,4 @@ description:
 ---
 # What is JAMStack?
 
-- [About]({{site.colophon.about | relative_url}}) *Temp* Liquid link in markdown relative url
+- [About]({{site.colophon.about | absolute_url}}) *Temp* Liquid link in markdown **absolute** url
