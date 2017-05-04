@@ -4,4 +4,6 @@ description:
 ---
 # What is JAMStack?
 
-- [About]({{site.colophon.about | absolute_url}}) *Temp* Liquid link in markdown **absolute** url
+{% for pg in site.colophon %}
+- {% pg | absolute_url %} *Temp* Liquid link in markdown **absolute** url
+{% endfor %}
