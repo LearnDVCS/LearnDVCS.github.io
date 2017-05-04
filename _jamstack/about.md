@@ -4,4 +4,4 @@ description:
 ---
 # What is JAMStack?
 
-- [About](../_about.md)
+- [About](../_colophon/about.md)
