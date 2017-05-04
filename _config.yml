@@ -3,6 +3,11 @@ title: Learn DVCS
 description: Fundamentals of Distributed Version Control with git on GitHub
 show_downloads: false
 encoding: utf-8
+collections:
+  colophon:
+    output: true
+  jamstack:
+    output: true
 gems:
   - jekyll-optional-front-matter
   - jekyll-readme-index
