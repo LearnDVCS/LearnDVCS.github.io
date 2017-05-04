@@ -4,4 +4,4 @@ description:
 ---
 # What is JAMStack?
 
-- [About](../colophon/about) *Temp*
+- [About]({{site.colophon.about}}) *Temp* Liquid link in markdown
