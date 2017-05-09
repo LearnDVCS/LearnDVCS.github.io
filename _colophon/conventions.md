@@ -19,3 +19,7 @@ TODOC:
   - publish: false
 - [ ] Layout Templates (default, summary, home)
 - [ ] Styling
+
+Possible items:
+
+- _data files (e.g.: for authors, as in https://learn.cloudcannon.com/jekyll/introduction-to-data-files/)
