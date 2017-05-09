@@ -1,0 +1,14 @@
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+      {% for group in site.collections %}
+      {% if group.docs.size > 0 %}
+      {% assign rootUrl =  group.label | remove_first: '_' | append: '/readme' | prepend: '/' | downcase %}
+      {% assign docs = group.docs | map: 'url' | downcase %}
+      <li>
+        <a {% if page.path contains group.label %}class="active"{% endif %} {% if docs contains rootUrl%}href="{{rootUrl}}"{% endif %}>{{ group.label | replace: '_', ' ' }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>

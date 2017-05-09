@@ -8,6 +8,8 @@ collections:
     output: true
   jamstack:
     output: true
+  chap_ters:
+    output: true
 gems:
   - jekyll-optional-front-matter
   - jekyll-readme-index
