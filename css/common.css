@@ -8,7 +8,7 @@
 
 body {
   font-family: var(--body-fonts);
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.45;
   color: #333;
   margin: 2px 20px 20px 20px;
@@ -163,3 +163,80 @@ a.active {
 .navy {
   color: navy;
 }
+
+/*Blockquotes*/
+blockquote {
+  position: relative;
+}
+
+
+blockquote.tip,
+blockquote.note,
+blockquote.warning,
+blockquote.beta {
+  padding-left: 2rem;
+}
+
+blockquote.tip:before,
+blockquote.note:before,
+blockquote.warning:before,
+blockquote.beta:before {
+  font-family: FontAwesome;
+  font-size: .75rem;
+  display: inline-block;
+  position: absolute;
+  top: .15rem;
+  text-align: center;
+  line-height: 1.1rem;
+  left: -16px;
+  height: 1rem;
+  width: 1rem;
+  background: white;
+  border-radius: 50%;
+}
+
+blockquote.tip {
+  border-left: solid 7px green;
+  background-color: lightgreen;
+}
+
+blockquote.tip:before {
+  content: "\f219";
+  border: solid 2px green;
+  color: green;
+}
+
+blockquote.note {
+  border-left: solid 7px blue;
+  background-color: lightblue;
+}
+
+blockquote.note:before {
+  content: "\f129";
+  border: solid 2px blue;
+  color: blue;
+}
+
+blockquote.warning {
+  border-left: solid 7px darkred;
+  background-color: rgba(255,0,0,0.25);
+}
+
+blockquote.warning:before {
+  content: "\f12a";
+  border: solid 2px darkred;
+  color: darkred;
+}
+
+blockquote.beta {
+  border-left: solid 7px darkorange;
+  background-color: wheat;
+}
+
+blockquote.beta:before {
+  content: "\f094";
+  border: solid 2px darkorange;
+  color: darkorange;
+}
+
+

@@ -1,6 +1,6 @@
   <nav>
     <ul>
-      <li><a href="">Home</a></li>
+      <li><a href="{{site.github.url}}">Home</a></li>
       {% for group in site.collections %}
       {% if group.docs.size > 0 %}
       {% assign rootUrl =  group.label | remove_first: '_' | append: '/readme' | prepend: '/' | downcase %}
