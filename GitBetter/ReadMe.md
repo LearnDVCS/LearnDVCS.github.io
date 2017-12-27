@@ -12,5 +12,9 @@ TODO:
 * Git Workflows
   * Team Work
   * Solo Work
+* GitHub Pages
+  * Jekyll
+  * GitBook
+  * Plain Static Pages
 * Getting Help
 * Tutorial Intros
