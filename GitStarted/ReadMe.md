@@ -15,3 +15,5 @@ TODO:
   * [GitAttributes.io](https://gitattributes.io/)
 * Terminology
 {% include "../GLOSSARY.md" %}
+* Intro the tutorials
+
