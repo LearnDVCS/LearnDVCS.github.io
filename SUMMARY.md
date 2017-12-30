@@ -36,7 +36,10 @@
 ## Background Info
 
 - [About Version Control](Background/ReadMe.md)
-  - [CVCS vs DVCS](CvsD.md)
+  - [CVCS vs DVCS](Background/OldVsNew.md)
+  - [git vs Mercurial](Background/mercurial.md)
+  - [git and GitHub](Background/github.md)
+  - 
 
 ## About This Site
 
