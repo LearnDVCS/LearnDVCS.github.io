@@ -1,5 +1,19 @@
 # LearnDVCS
 
+To publish contents, build the `dev` branch, then switch to the `master` branch.
+
+```powershell
+git checkout dev
+gitbook build
+git checkout master
+```
+
+Then, in windows, drag/move the contents of `_book` to the root of the repo.
+
+You can now commit the changes.
+
+----
+
 ![](https://guides.github.com/activities/hello-world/branching.png)
 
 For more information on how this site was built and what technologies are being used, view the [Colophon](colophon.md).
