@@ -1,3 +1,6 @@
+## Colophon
+"An inscription at the end of a book or manuscript usually with facts about its production" - https://www.merriam-webster.com/dictionary/colophon
+
 ## Version Control System
 Software that is capable of saving "snapshots" of your work at a point in time, thereby producing a "history" of the changes your work has gone through.
 
