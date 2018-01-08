@@ -11,5 +11,5 @@ Distributed Version Control System
 Centralized Version Control System
 
 ## Code Repository
-A DVCS/CVCS "database" containing the development history of some source code.
+A DVCS/CVCS "database" containing the development history of some source code. Code repositories are often referred to as "**Repos**".
 
