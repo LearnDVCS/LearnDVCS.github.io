@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Commit via Desktop · GitBook</title>
+        <title>CVCS vs DVCS · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="desktopSync.html" />
+    <link rel="next" href="mercurial.html" />
     
     
-    <link rel="prev" href="../desktop.md" />
+    <link rel="prev" href="ReadMe.html" />
     
 
     </head>
@@ -240,9 +240,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="ReadMe.html">
+        <li class="chapter " data-level="4.1" data-path="../GitGoing/ReadMe.html">
             
-                <a href="ReadMe.html">
+                <a href="../GitGoing/ReadMe.html">
             
                     
                     How to Git Going
@@ -267,9 +267,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="4.2.1" data-path="desktopCommit.html">
+        <li class="chapter " data-level="4.2.1" data-path="../GitGoing/desktopCommit.html">
             
-                <a href="desktopCommit.html">
+                <a href="../GitGoing/desktopCommit.html">
             
                     
                     Commit via Desktop
@@ -280,9 +280,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2.2" data-path="desktopSync.html">
+        <li class="chapter " data-level="4.2.2" data-path="../GitGoing/desktopSync.html">
             
-                <a href="desktopSync.html">
+                <a href="../GitGoing/desktopSync.html">
             
                     
                     Sync via Desktop
@@ -298,9 +298,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="online.html">
+        <li class="chapter " data-level="4.3" data-path="../GitGoing/online.html">
             
-                <a href="online.html">
+                <a href="../GitGoing/online.html">
             
                     
                     Add/Edit/Commit Online
@@ -311,9 +311,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.4" data-path="cmd.html">
+        <li class="chapter " data-level="4.4" data-path="../GitGoing/cmd.html">
             
-                <a href="cmd.html">
+                <a href="../GitGoing/cmd.html">
             
                     
                     Command-Line Control
@@ -403,9 +403,9 @@
         
         
     
-        <li class="chapter " data-level="6.1" data-path="../Background/ReadMe.html">
+        <li class="chapter " data-level="6.1" data-path="ReadMe.html">
             
-                <a href="../Background/ReadMe.html">
+                <a href="ReadMe.html">
             
                     
                     About Version Control
@@ -417,9 +417,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="6.1.1" data-path="../Background/OldVsNew.html">
+        <li class="chapter active" data-level="6.1.1" data-path="OldVsNew.html">
             
-                <a href="../Background/OldVsNew.html">
+                <a href="OldVsNew.html">
             
                     
                     CVCS vs DVCS
@@ -430,9 +430,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.1.2" data-path="../Background/mercurial.html">
+        <li class="chapter " data-level="6.1.2" data-path="mercurial.html">
             
-                <a href="../Background/mercurial.html">
+                <a href="mercurial.html">
             
                     
                     git vs Mercurial
@@ -443,9 +443,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.1.3" data-path="../Background/github.html">
+        <li class="chapter " data-level="6.1.3" data-path="github.html">
             
-                <a href="../Background/github.html">
+                <a href="github.html">
             
                     
                     git and GitHub
@@ -537,7 +537,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Commit via Desktop</a>
+        <a href=".." >CVCS vs DVCS</a>
     </h1>
 </div>
 
@@ -552,7 +552,21 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="commit-with-github-desktop">Commit with GitHub Desktop</h1>
+                                <h2 id="cvcs-vs-dvcs">CVCS vs DVCS</h2>
+<p>One of the earliest CVCSs is the Concurrent Versions System (CVS) dating back to the late &apos;80s. in the early 2000s, an improved <a href="../GLOSSARY.html#cvcs" class="glossary-term" title="Centralized Version Control System">CVCS</a> was developed that became known as Apache Subversion (SVN). Development of DVCSs dates back to the early-to-mid 2000s, with git and Mercurial emerging in 2005.(see Footnote #1)</p>
+<p>The key difference between a <em>centralized</em> <a href="../GLOSSARY.html#version-control-system" class="glossary-term" title="Software that is capable of saving &quot;snapshots&quot; of your work at a point in time, thereby producing a &quot;history&quot; of the changes your work has gone through.">version control system</a> and a <em>distributed</em> one is that in the <a href="../GLOSSARY.html#cvcs" class="glossary-term" title="Centralized Version Control System">CVCS</a> there is only one repository (the central one), whereas in a <a href="../GLOSSARY.html#dvcs" class="glossary-term" title="Distributed Version Control System">DVCS</a> there are many repositories. Developers of a <a href="../GLOSSARY.html#cvcs" class="glossary-term" title="Centralized Version Control System">CVCS</a> access the central repository as an external or shared resource; they simply <strong>check out</strong> the file(s) that they need to work on (and then check them back in when they are done with them), committing changes to the central repository as they need to.</p>
+<p><img src="CVCS.png" alt="CVCS"></p>
+<p>A Centralized <a href="../GLOSSARY.html#version-control-system" class="glossary-term" title="Software that is capable of saving &quot;snapshots&quot; of your work at a point in time, thereby producing a &quot;history&quot; of the changes your work has gone through.">Version Control System</a> (<a href="../GLOSSARY.html#cvcs" class="glossary-term" title="Centralized Version Control System">CVCS</a>)</p>
+<p>The major benefit of using a <a href="../GLOSSARY.html#cvcs" class="glossary-term" title="Centralized Version Control System">CVCS</a> is that all developers changes are commited to the central repo, ensuring that each developer works off of  a copy of the same source code. A downside of this approach, however, is that the developers have less flexibility to work independently; they must always keep themselves &quot;in sync&quot; with the central repository. Additionally, if anything goes wrong with the central repository (such as someone committing a &quot;broken&quot; build, or the repository becoming corrupted), then that will impact everyone.</p>
+<p>In a <a href="../GLOSSARY.html#dvcs" class="glossary-term" title="Distributed Version Control System">DVCS</a>, however, each developer has their own, fully-independent copy of the repository. With a <a href="../GLOSSARY.html#dvcs" class="glossary-term" title="Distributed Version Control System">DVCS</a> system, developers are able to share their repositories with each other (a shared repository is called a <strong>clone</strong>). Whenever developers make changes to their source code, they commit to their own repository. This means that developers are able to work more independently of each other; they only have to share their changes with each other if they want to. If a developer wants to share their latest work with another developer&apos;s clone, they can <strong>merge</strong> the differences between the two repositories. (As a side benefit, since each developer has their own repository/database, if one person&apos;s repository becomes corrupt or damaged, they can just grab a clone of someone else&apos;s repository.)</p>
+<p><img src="DVCS-2.png" alt="DVCS"></p>
+<p>A Distributed <a href="../GLOSSARY.html#version-control-system" class="glossary-term" title="Software that is capable of saving &quot;snapshots&quot; of your work at a point in time, thereby producing a &quot;history&quot; of the changes your work has gone through.">Version Control System</a> (<a href="../GLOSSARY.html#dvcs" class="glossary-term" title="Distributed Version Control System">DVCS</a>)</p>
+<p>The downside of a <a href="../GLOSSARY.html#dvcs" class="glossary-term" title="Distributed Version Control System">DVCS</a> is that since each developer is so free to work independently, the question comes up: &quot;Who has the latest verion of everyone&apos;s contributions?&quot; In other words, whose database represents the &quot;truth&quot; of all the source code for the project? A solution to this is to create another clone that everyone can regard as the &quot;central&quot; repository. In this approach, everyone is still working with DVCSs, but the developers regularly share their updates with the central repository (while still having the ability to share changes directly with each other). The central repository would be a clone that exists &quot;in the cloud&quot;, such as hosted on GitHub.com, each individual&apos;s repository is a local clone stored on the individual&apos;s own computer.</p>
+<p><img src="DVCS-4.png" alt="DVCS with Central Repo"></p>
+<p>A <a href="../GLOSSARY.html#dvcs" class="glossary-term" title="Distributed Version Control System">DVCS</a> with a clone that is &quot;in the cloud&quot; acting as a centralized repository.</p>
+<p>In addition to people having their own local repository, they might also be using a Pull-Request approach to managing their code, in which they could have their **local** repository on their computer as well as a **remote** repository online, with the **origin** being the central repository.</p>
+<p><img src="DVCS-5.png" alt=""></p>
+<p>Online &quot;Remotes&quot; vs. Local repositories</p>
 
                                 
                                 </section>
@@ -580,12 +594,12 @@
 
             
                 
-                <a href="../desktop.md" class="navigation navigation-prev " aria-label="Previous page: GitHub Desktop">
+                <a href="ReadMe.html" class="navigation navigation-prev " aria-label="Previous page: About Version Control">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="desktopSync.html" class="navigation navigation-next " aria-label="Next page: Sync via Desktop">
+                <a href="mercurial.html" class="navigation navigation-next " aria-label="Next page: git vs Mercurial">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -596,7 +610,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Commit via Desktop","level":"4.2.1","depth":2,"next":{"title":"Sync via Desktop","level":"4.2.2","depth":2,"path":"GitGoing/desktopSync.md","ref":"GitGoing/desktopSync.md","articles":[]},"previous":{"title":"GitHub Desktop","level":"4.2","depth":1,"path":"desktop.md","ref":"desktop.md","articles":[{"title":"Commit via Desktop","level":"4.2.1","depth":2,"path":"GitGoing/desktopCommit.md","ref":"GitGoing/desktopCommit.md","articles":[]},{"title":"Sync via Desktop","level":"4.2.2","depth":2,"path":"GitGoing/desktopSync.md","ref":"GitGoing/desktopSync.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"GitGoing/desktopCommit.md","mtime":"2017-12-30T19:54:22.593Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-08T14:13:11.122Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CVCS vs DVCS","level":"6.1.1","depth":2,"next":{"title":"git vs Mercurial","level":"6.1.2","depth":2,"path":"Background/mercurial.md","ref":"Background/mercurial.md","articles":[]},"previous":{"title":"About Version Control","level":"6.1","depth":1,"path":"Background/ReadMe.md","ref":"Background/ReadMe.md","articles":[{"title":"CVCS vs DVCS","level":"6.1.1","depth":2,"path":"Background/OldVsNew.md","ref":"Background/OldVsNew.md","articles":[]},{"title":"git vs Mercurial","level":"6.1.2","depth":2,"path":"Background/mercurial.md","ref":"Background/mercurial.md","articles":[]},{"title":"git and GitHub","level":"6.1.3","depth":2,"path":"Background/github.md","ref":"Background/github.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Background/OldVsNew.md","mtime":"2018-01-08T14:11:00.910Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-08T14:13:11.122Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
