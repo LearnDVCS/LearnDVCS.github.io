@@ -1,4 +1,4 @@
-# [LearnDVCS.github.io](https://LearnDVCS.github.io)
+# [LearnDVCS.github.io](https://LearnDVCS.github.io) [![Build Status](https://travis-ci.org/LearnDVCS/LearnDVCS.github.io.svg?branch=dev)](https://travis-ci.org/LearnDVCS/LearnDVCS.github.io)
 
 > This repository contains web content for a general introduction to using git and GitHub as their version control system (DVCS).
 
