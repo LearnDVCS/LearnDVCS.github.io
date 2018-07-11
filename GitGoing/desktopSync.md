@@ -1,2 +1,0 @@
-# Sync with GitHub Desktop
-
