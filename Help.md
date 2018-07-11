@@ -1,3 +1,6 @@
+---
+title: Git Help
+---
 # Online Help Resources
 
 To be frank, you are not going to get a lot of "depth" about git or version control on this site. This site is all about "**getting started**" with git as your version control system.

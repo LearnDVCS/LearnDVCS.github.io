@@ -1,3 +1,6 @@
+---
+title: Get a GitHub Account
+---
 # Get a GitHub Account
 
 You can sign up for a free GitHub account at their [signup page](https://github.com/join). Simply choose a username and a password, and tell them your email address. Go ahead and sign up now, if you haven't already (I'll wait). Don't forget to open the the verification email from GitHub and click the link/button in that email.

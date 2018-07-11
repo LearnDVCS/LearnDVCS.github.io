@@ -1,4 +1,7 @@
-## CVCS vs DVCS
+---
+title: CVCS vs DVCS
+---
+# CVCS vs DVCS
 
 One of the earliest CVCSs is the Concurrent Versions System (CVS) dating back to the late '80s. in the early 2000s, an improved CVCS was developed that became known as Apache Subversion (SVN). Development of DVCSs dates back to the early-to-mid 2000s, with git and Mercurial emerging in 2005.(see Footnote #1)
 
@@ -24,6 +27,4 @@ A DVCS with a clone that is "in the cloud" acting as a centralized repository.
 
 In addition to people having their own local repository, they might also be using a Pull-Request approach to managing their code, in which they could have their \*\*local\*\* repository on their computer as well as a \*\*remote\*\* repository online, with the \*\*origin\*\* being the central repository.
 
-![](DVCS-5.png)
-
-Online "Remotes" vs. Local repositories
+![Online "Remotes" vs. Local repositories](DVCS-5.png)

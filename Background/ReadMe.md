@@ -1,3 +1,6 @@
+---
+title: About Version Control
+---
 # Version Control in Software Development
 
 When placing your material into online repositories such as GitHub, you (the student) are responsible to ensure that you use **private** repositories for any and all exercises, assessment, labs, and other items for marks. Also note that for some markable items, you may be instructed to **not** post the item(s) into online repositories.

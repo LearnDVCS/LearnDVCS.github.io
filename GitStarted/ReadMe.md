@@ -1,9 +1,11 @@
+---
+title: What's in a Repo
+---
 # DVCS Basics
-
 
 ----
 
-TODO: 
+TODO:
 
 * What is Version Control
 * What are we Versioning? (Source Code)
@@ -13,7 +15,5 @@ TODO:
 * Playing Nice with Other Platforms
   * .gitattributes
   * [GitAttributes.io](https://gitattributes.io/)
-* Terminology
-{% include "../GLOSSARY.md" %}
+* [Terminology](./GLOSSARY.md)
 * Intro the tutorials
-

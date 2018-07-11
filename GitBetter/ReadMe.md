@@ -1,3 +1,6 @@
+---
+title: Keep Learning
+---
 # Improving Your Git Skills
 
 ----

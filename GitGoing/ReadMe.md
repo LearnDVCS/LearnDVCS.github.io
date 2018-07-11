@@ -1,5 +1,7 @@
+---
+title: How to Git Going
+---
 # Working in Your Repository
-
 
 ----
 

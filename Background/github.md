@@ -1,3 +1,6 @@
+---
+title: git and GitHub
+---
 # git and GitHub
 
 While git is a DVCS, GitHub is an online hosting provider for git repositories.

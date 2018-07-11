@@ -1,3 +1,6 @@
+---
+title: Setting Up
+---
 # Setting Up for Version Control
 
 To use version control in your work, you need a version control system. That is to say, you need a program that can save "versions" of what you have been working on.

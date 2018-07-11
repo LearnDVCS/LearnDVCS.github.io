@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Learn DVCS',
-  description: 'Getting Started with git on GitHub',
+  description: 'Getting Started with git and GitHub',
   markdown: {
     config: md => {
       md.set({ breaks: true })
