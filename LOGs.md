@@ -1,3 +1,6 @@
+---
+title: Learning Outcomes
+---
 # Learning Outcome Guides
 
 If you want to see at-a-glance what this site is about, check out the **Learning Outcome Guides** below. They outline what you should be able to do after going through each section of material.
