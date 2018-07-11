@@ -13,7 +13,7 @@ Version control works by storing "snapshots" of our software projects into a dat
 
 In general, there are two kinds of version control systems:
 
--   Centralized Version Control System (CVCS)
--   Distributed Version Control System (DVCS)
+- Centralized Version Control System (CVCS)
+- Distributed Version Control System (DVCS)
 
 In this course, our focus will be on using Distributed Version Control Systems, and the DVCS of choice will be [git](http://git-scm.com/). Along with that, we will be using [GitHub](https://github.com/) as an online copy of our code repositories, which will make moving from room-to-room much easier over the term.
