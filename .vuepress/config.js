@@ -18,7 +18,7 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'About', link: '/Help' },
+      { text: 'About', link: '/LOGs' },
       { text: 'Git Ready', link: '/GitReady/' },
       { text: 'Git Started', link: '/GitStarted/' },
       { text: 'Git Going', link: '/GitGoing/' },
