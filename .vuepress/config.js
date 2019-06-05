@@ -2,7 +2,7 @@ module.exports = {
   title: 'Learn DVCS',
   description: 'Getting Started with git and GitHub',
   markdown: {
-    config: md => {
+    extendMarkdown: md => {
       md.set({ breaks: true })
       md.use(require('markdown-it-imsize'))
       md.use(require('markdown-it-mermaid').default) // leave default options
@@ -67,5 +67,12 @@ module.exports = {
         'GLOSSARY'
       ]
     }
+  },
+  plugins: {
+      serviceWorker: true,
+      updatePopup: {
+          message: "New content is available.",
+          buttonText: "Refresh"
+      }
   }
 }
