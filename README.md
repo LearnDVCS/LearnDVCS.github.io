@@ -3,7 +3,7 @@ home: true
 title: Learn DVCS
 description: 
 heroImage: https://guides.github.com/activities/hello-world/branching.png
-actionText: Git Ready... →
+actionText: Git Ready →
 actionLink: /GitReady/
 ---
 # LearnDVCS [![Build Status](https://travis-ci.org/LearnDVCS/LearnDVCS.github.io.svg?branch=dev)](https://travis-ci.org/LearnDVCS/LearnDVCS.github.io)
