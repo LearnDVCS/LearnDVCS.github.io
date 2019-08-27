@@ -27,7 +27,8 @@ module.exports = {
       '/GitReady/': [
         '',
         'gh',
-        'install'
+        'install',
+        '/GitStarted/'
       ],
 
       '/GitStarted/': [
