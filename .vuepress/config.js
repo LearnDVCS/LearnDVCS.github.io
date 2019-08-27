@@ -32,6 +32,7 @@ module.exports = {
 
       '/GitStarted/': [
         '',
+        'background.md',
         'gh.com',
         'ghDesktop',
         'command'

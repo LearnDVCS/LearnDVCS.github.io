@@ -1,20 +1,15 @@
 ---
-title: What's in a Repo
+title: Git Started
 ---
-# DVCS Basics
+# Git Started
+
+You've got your [software installed](../GitReady/ReadMe.md), but where should you begin learning how to work with git? Well, that depends....
+
+If you're the type that likes to get your hands on the tools, then a 
 
 ----
 
 TODO:
 
-* What is Version Control
-* What are we Versioning? (Source Code)
-* What we are *not* versioning
-  * .gitignore
-  * [GitIgnore.io](https://www.gitignore.io/)
-* Playing Nice with Other Platforms
-  * .gitattributes
-  * [GitAttributes.io](https://gitattributes.io/)
-* [Terminology](./GLOSSARY.md)
-  * "repo" - short for "repository"; describes what is effectively a "database" in which you save "snapshots" of your code at different stages of development.
-* Intro the tutorials
+- https://lab.github.com/githubtraining/paths/first-day-on-github
+- https://lab.github.com/githubtraining/paths/first-week-on-github
