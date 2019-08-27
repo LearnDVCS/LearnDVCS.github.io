@@ -16,4 +16,5 @@ TODO:
   * .gitattributes
   * [GitAttributes.io](https://gitattributes.io/)
 * [Terminology](./GLOSSARY.md)
+  * "repo" - short for "repository"; describes what is effectively a "database" in which you save "snapshots" of your code at different stages of development.
 * Intro the tutorials
