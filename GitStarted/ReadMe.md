@@ -80,7 +80,7 @@ At this point, we have some files and a folder for our repo. It's not actually a
 
 <details open><summary>Visual Studio Code</summary>
 
-1. Select the git tag - ![git tag](vs-git.png) - and click on the **Initialize** button to set up your folder as a git repository.
+1. Select the git tag - ![git tag](./vs-git.png) - and click on the **Initialize** button to set up your folder as a git repository.
 
     ![Initialize](./vs-initialize-rep.png)
 
