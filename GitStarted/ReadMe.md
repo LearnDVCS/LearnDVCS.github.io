@@ -33,6 +33,7 @@ Strictly speaking, you don't *have* to have these files; but you will save yours
 
 1. Depending on your operating system (Windows vs Mac OS), enter the following in your `.gitignore` file.
     - <details><summary>Windows</summary>
+
         ```shell
         ### Windows ###
         # Windows thumbnail cache files
@@ -46,8 +47,12 @@ Strictly speaking, you don't *have* to have these files; but you will save yours
 
         # Windows shortcuts
         *.lnk
-        ```</details>
+        ```
+
+        </details>
+
     - <details><summary>Mac OS</summary>
+
         ```shell
         ### macOS ###
         # General
@@ -60,7 +65,9 @@ Strictly speaking, you don't *have* to have these files; but you will save yours
 
         # Thumbnails
         ._*
-        ```</details>
+        ```
+
+        </details>
 
 1. Once again, choose *File &rarr; New File* to create a new file and give it the name `.gitattributes` (note the period in front of the file name). Give it the following content.
 

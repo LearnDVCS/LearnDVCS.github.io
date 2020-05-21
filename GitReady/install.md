@@ -3,7 +3,7 @@ title: Install Software
 ---
 # Install Software
 
-The only required software to have a git repository is: ==[git](https://git-scm.com/)==. **git** is a command-line tool, which works well for those who are used to working on the command line as a day-in-day-out part of software development.
+The only required software to have a git repository is: [==git==](https://git-scm.com/). **git** is a command-line tool, which works well for those who are used to working on the command line as a day-in-day-out part of software development.
 
 Most people who are just learning to code, however, tend to benefit from having some graphical-user-interface (GUI) tool instead of the command line. There are lots of choices when it comes to tools to help manage your git repository, especially when it comes to keeping everything in-sync with the "cloud" version of your repo. Two popular ones are [GitKraken](https://www.gitkraken.com/) and [GitHub Desktop](https://desktop.github.com/).
 
