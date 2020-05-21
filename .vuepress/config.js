@@ -4,7 +4,6 @@ module.exports = {
   extendMarkdown(md) {
     md.set({ breaks: true })
     md.use(require('markdown-it-imsize'))
-    md.use(require('markdown-it-mermaid').default) // leave default options
     md.use(require('markdown-it-checkbox'))
     md.use(require('markdown-it-kbd'))
     md.use(require('markdown-it-deflist'))
@@ -36,16 +35,18 @@ module.exports = {
         'background.md',
         'gh.com',
         'ghDesktop',
-        'command'
+        'gkraken',
+        'command',
+        '/GitGoing/'
       ],
 
       '/GitGoing/': [
         '',
         'desktop',
-        'desktopCommit',
-        'desktopCommit',
+        'kraken',
         'online',
-        'cmd'
+        'cmd',
+        '/GitBetter/'
       ],
 
       '/GitBetter/': [
@@ -54,7 +55,8 @@ module.exports = {
         'workflows',
         'pages',
         'markdown-syntax',
-        'moreCmd'
+        'moreCmd',
+        '/Help'
       ],
 
       // fallback

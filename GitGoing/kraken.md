@@ -1,7 +1,7 @@
 ---
-title: GitHub Desktop
+title: GitKraken
 ---
-# GitHub Desktop
+# GitKraken
 
 
 ## Making a Commit
