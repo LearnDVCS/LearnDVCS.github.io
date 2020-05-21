@@ -10,4 +10,4 @@ TODO:
 * About editing your files & committing changes
 * Synchronizing with GitHub.com
 * Tips: Commit Frequently, sync often
-* Tutorial Intros
+* [Tutorial Intros](../GitBetter/ReadMe.md)

@@ -15,12 +15,12 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'About', link: '/LOGs' },
       { text: 'Git Ready', link: '/GitReady/' },
       { text: 'Git Started', link: '/GitStarted/' },
       { text: 'Git Going', link: '/GitGoing/' },
       { text: 'Git Better', link: '/GitBetter/' },
-      { text: 'GitHub', link: 'https://github.com' }
+      { text: 'GitHub', link: 'https://github.com' },
+      { text: 'About', link: '/LOGs' }
     ],
     sidebar: {
       '/GitReady/': [
@@ -32,11 +32,8 @@ module.exports = {
 
       '/GitStarted/': [
         '',
+        'publish.md',
         'background.md',
-        'gh.com',
-        'ghDesktop',
-        'gkraken',
-        'command',
         '/GitGoing/'
       ],
 
@@ -66,7 +63,8 @@ module.exports = {
         'Background/',
         'GitBetter/markdown-syntax',
         'colophon',
-        'GLOSSARY'
+        'GLOSSARY',
+        '/'
       ]
     }
   },
